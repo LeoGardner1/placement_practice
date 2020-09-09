@@ -34,6 +34,7 @@ $cakeDescription = 'CakePHP: the rapid development PHP framework';
 <html>
 <head>
     Second Change
+    Testing git branch functionality
     <?= $this->Html->charset() ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
