@@ -1,0 +1,24 @@
+version: "3.1"
+services:
+  app:
+    privileged: true
+    container_name: app
+    build: .
+    volumes:
+      - .:/var/www/html
+    ports:
+      - 5000:80
+    depends_on:
+      - db
+
+  db:
+    image: postgres:12.3
+    environment:
+      POSTGRES_PASSWORD: password
+      POSTGRES_USER: postgres
+      POSTGRES_DB: postgres
+    container_name: postrges-0
+    ports:
+      - 54321:5432
+    restart: "no"
+  
