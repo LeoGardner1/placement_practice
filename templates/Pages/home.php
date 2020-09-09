@@ -33,7 +33,7 @@ $cakeDescription = 'CakePHP: the rapid development PHP framework';
 <!DOCTYPE html>
 <html>
 <head>
-    Second Change
+    Second Change, Testing pulling merge conflicts
     Change to test out a non fast forward merge
     Testing git branch functionality
     
