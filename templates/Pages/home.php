@@ -33,10 +33,9 @@ $cakeDescription = 'CakePHP: the rapid development PHP framework';
 <!DOCTYPE html>
 <html>
 <head>
-    Second Change, Testing pulling merge conflicts
+    Second Change, Testing pulling merge conflicts 123543
     Change to test out a non fast forward merge
     Testing git branch functionality
-    
     <?= $this->Html->charset() ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
